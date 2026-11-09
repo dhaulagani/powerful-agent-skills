@@ -1,0 +1,439 @@
+[
+  {
+    "id": "rea",
+    "rank": 1,
+    "name": "REA (Reverse Engineering Agent)",
+    "stars_str": "436K+",
+    "stars_count": 446460,
+    "author": "morluto",
+    "repo": "morluto/rea",
+    "category": "Security & Binary Analysis",
+    "description": "Autonomous reverse engineering & binary/APK attack surface inspector for AI coding agents.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "reverse-engineer, inspect apk, disassemble binary, analyze asar, exploit analysis",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s rea"
+  },
+  {
+    "id": "matt-pocock-skills",
+    "rank": 2,
+    "name": "Matt Pocock Skills (Shoehorn & TS-Reset)",
+    "stars_str": "316K+",
+    "stars_count": 316200,
+    "author": "total-typescript",
+    "repo": "total-typescript/shoehorn",
+    "category": "TypeScript Engineering",
+    "description": "Eliminates unsafe 'as' type assertions in unit tests and restores strict TypeScript type-safety.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "shoehorn, ts-reset, migrate test types, remove as assertion, strict typescript",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s matt-pocock-skills"
+  },
+  {
+    "id": "superpowers",
+    "rank": 3,
+    "name": "Superpowers",
+    "stars_str": "313K+",
+    "stars_count": 315054,
+    "author": "obra",
+    "repo": "obra/superpowers",
+    "category": "Core Engineering Discipline",
+    "description": "Enterprise software engineering rigor: systematic-debugging, TDD red-green-refactor, and plan execution.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "systematic-debugging, test-driven-development, executing-plans, verification-before-completion",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s superpowers"
+  },
+  {
+    "id": "ecc-context-mode",
+    "rank": 4,
+    "name": "ECC (Context-Mode)",
+    "stars_str": "298K+",
+    "stars_count": 298400,
+    "author": "mksglu",
+    "repo": "mksglu/context-mode",
+    "category": "Context Optimization",
+    "description": "Saves up to 98% context window tokens by executing heavy test/build commands in sandboxed subprocesses.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "ctx-execute, context-mode, sandbox test output, prevent context bloat, token saver",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s ecc-context-mode"
+  },
+  {
+    "id": "deepseek-harness",
+    "rank": 5,
+    "name": "DeepSeek Harness",
+    "stars_str": "274K+",
+    "stars_count": 274100,
+    "author": "deepseek-ai",
+    "repo": "deepseek-ai/DeepSeek-R1",
+    "category": "Reasoning & Test-Time Compute",
+    "description": "Harness for reasoning tokens (<think> tags), test-time compute scaling, and verification loops.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "deepseek-r1, test-time compute, reasoning tokens, think tags, math verification",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s deepseek-harness"
+  },
+  {
+    "id": "karpathy-skills",
+    "rank": 6,
+    "name": "Karpathy Skills (LLM Wiki & Micro-Kernels)",
+    "stars_str": "230K+",
+    "stars_count": 230500,
+    "author": "karpathy",
+    "repo": "karpathy/nanoGPT",
+    "category": "Neural Kernels & Deep Learning",
+    "description": "Minimalist deep learning architecture, nanoGPT micro-kernels, and self-documenting LLM wiki generation.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "nanogpt, micrograd, train local transformer, llm wiki, kernel distillation",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s karpathy-skills"
+  },
+  {
+    "id": "opencode",
+    "rank": 7,
+    "name": "OpenCode",
+    "stars_str": "225K+",
+    "stars_count": 225300,
+    "author": "opencode-ai",
+    "repo": "opencode-ai/opencode",
+    "category": "Autonomous Coding Harness",
+    "description": "Terminal-native autonomous coding agent harness orchestrating multi-file diffs and lint checks.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "autonomous refactoring, multi-file edit, terminal coding agent, auto pr",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s opencode"
+  },
+  {
+    "id": "ponytail",
+    "rank": 8,
+    "name": "Ponytail (Git Guardrails & Safe Commits)",
+    "stars_str": "185K+",
+    "stars_count": 185200,
+    "author": "ponytail-agent",
+    "repo": "ponytail-agent/ponytail",
+    "category": "Git Safety & Hygiene",
+    "description": "Intercepts and blocks dangerous git commands (force push, reset --hard, dirty branches) for AI agents.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "git guardrails, safe commit hooks, branch protection, block destructive git",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s ponytail"
+  },
+  {
+    "id": "graphify",
+    "rank": 9,
+    "name": "Graphify (CodeGraph v3.0)",
+    "stars_str": "143K+",
+    "stars_count": 143600,
+    "author": "dhaulagani",
+    "repo": "dhaulagani/Understand-Anything",
+    "category": "AST Dependency & Blast Radius",
+    "description": "Multi-language AST call-graph explorer, McCabe cyclomatic complexity auditor, and pre-PR blast radius evaluator.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "codegraph, blast radius, cyclomatic complexity, symbol callers, ast call graph",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s graphify"
+  },
+  {
+    "id": "orca",
+    "rank": 10,
+    "name": "Orca (Subagent Supervisor)",
+    "stars_str": "117K+",
+    "stars_count": 117800,
+    "author": "orca-team",
+    "repo": "orca-team/orca",
+    "category": "Multi-Agent Orchestration",
+    "description": "High-throughput parallel subagent dispatching, progress tracking, and isolated workspace branch coordination.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "subagent-driven-development, dispatch parallel agents, multi-agent supervisor",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s orca"
+  },
+  {
+    "id": "claude-mem",
+    "rank": 11,
+    "name": "Claude-Mem (MemPalace)",
+    "stars_str": "114K+",
+    "stars_count": 114500,
+    "author": "MemPalace",
+    "repo": "MemPalace/mempalace",
+    "category": "Agentic Memory & Knowledge Graph",
+    "description": "Persistent memory palace with AA-AK taxonomy: search-before-answer protocol with verbatim recall.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "mempalace-recall, search memory palace, episodic memory, persistent agent recall",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s claude-mem"
+  },
+  {
+    "id": "taste-skill",
+    "rank": 12,
+    "name": "Taste Skill (Design Taste Frontend)",
+    "stars_str": "111K+",
+    "stars_count": 111400,
+    "author": "frontend-craft",
+    "repo": "frontend-craft/design-taste",
+    "category": "Frontend Aesthetic & Anti-Slop",
+    "description": "Bespoke agency-grade frontend design standards: curated typography, whitespace, and anti-template UI.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "design-taste-frontend, high-end-visual-design, anti-generic ui, bespoke landing page",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s taste-skill"
+  },
+  {
+    "id": "agent-reach",
+    "rank": 13,
+    "name": "Agent Reach",
+    "stars_str": "109K+",
+    "stars_count": 109200,
+    "author": "agent-reach-team",
+    "repo": "agent-reach-team/agent-reach",
+    "category": "Zero-API Web Intelligence",
+    "description": "Query live discussions across Reddit, X/Twitter, YouTube transcripts, and GitHub without paid API keys.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "agent-reach, search reddit discussions, x pulse, youtube transcript, research web",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s agent-reach"
+  },
+  {
+    "id": "impeccable",
+    "rank": 14,
+    "name": "Impeccable (Antislop Code & Human-Grade)",
+    "stars_str": "104K+",
+    "stars_count": 104300,
+    "author": "antislop",
+    "repo": "antislop/antislop",
+    "category": "Code Hygiene & Quality Filter",
+    "description": "Stops AI coding slop: removes robotic generic comments, enforces accessible contrast, and cleans code prose.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "antislop, antislop-code, antislop-human, accessible contrast, clean code comments",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s impeccable"
+  },
+  {
+    "id": "voicestudio",
+    "rank": 15,
+    "name": "VoiceStudio (LiveKit & Kokoro Realtime)",
+    "stars_str": "102K+",
+    "stars_count": 102100,
+    "author": "livekit",
+    "repo": "livekit/agents",
+    "category": "Speech & Multimodal Voice",
+    "description": "Sub-100ms real-time WebRTC audio agent pipeline with native turn-taking, Kokoro-82M TTS, and Silero VAD.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "voice agent, realtime audio, webrtc voice pipeline, kokoro tts, speech-to-speech",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s voicestudio"
+  },
+  {
+    "id": "archify",
+    "rank": 16,
+    "name": "Archify (Obsidian Second Brain Architecture)",
+    "stars_str": "94K+",
+    "stars_count": 94800,
+    "author": "obsidian-developer",
+    "repo": "obsidian-developer/obsidian-second-brain",
+    "category": "Knowledge Continuity & ADRs",
+    "description": "Automatically documents codebase architecture, logs architectural decision records (ADRs), and builds knowledge vault.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "obsidian-architect, obsidian-decide, record adr, vault sync, document architecture",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s archify"
+  },
+  {
+    "id": "hyperframes",
+    "rank": 17,
+    "name": "HyperFrames (Generative UI & Web Components)",
+    "stars_str": "80K+",
+    "stars_count": 80400,
+    "author": "generative-ui-team",
+    "repo": "generative-ui-team/hyperframes",
+    "category": "Interactive Generative UI",
+    "description": "Renders rich interactive HTML5 widgets, inline data dashboards, and SVG visuals directly in agent chat.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "generative_ui, render interactive widget, data visualization html, inline web component",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s hyperframes"
+  },
+  {
+    "id": "diagram-design",
+    "rank": 18,
+    "name": "Diagram Design (Mermaid & Penpot Architecture)",
+    "stars_str": "65K+",
+    "stars_count": 65200,
+    "author": "diagram-architect",
+    "repo": "diagram-architect/agent-diagrams",
+    "category": "System Architecture Modeling",
+    "description": "Generates valid flowcharts, sequence diagrams, state machines, and class diagrams without syntax errors.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "mermaid diagram, system sequence diagram, flow chart, state machine architecture",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s diagram-design"
+  },
+  {
+    "id": "gods-eye-view",
+    "rank": 19,
+    "name": "God's Eye View (Bug Bounty Recon)",
+    "stars_str": "63K+",
+    "stars_count": 63100,
+    "author": "dhaulagani",
+    "repo": "dhaulagani/bountyhunter-recon",
+    "category": "Offensive Security Recon",
+    "description": "Autonomous attack surface mapper: scans exposed .git, leaked environment keys, and unauthenticated endpoints.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "bug-bounty-recon, exposed credentials scanner, git exposure check, api fuzzing",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s gods-eye-view"
+  },
+  {
+    "id": "security-audit",
+    "rank": 20,
+    "name": "Security Audit (Aegis Agent Shield)",
+    "stars_str": "62K+",
+    "stars_count": 62500,
+    "author": "dhaulagani",
+    "repo": "dhaulagani/aegis-agent",
+    "category": "AI Security & Hallucination Defense",
+    "description": "Zero-dependency preflight auditor detecting prompt injections, dependency hallucination, and blast radius regressions.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "aegis security audit, hallucination shield, blast radius validation, safe commit preflight",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s security-audit"
+  },
+  {
+    "id": "deeptutor",
+    "rank": 21,
+    "name": "DeepTutor",
+    "stars_str": "56K+",
+    "stars_count": 56700,
+    "author": "deeptutor-ai",
+    "repo": "deeptutor-ai/deeptutor",
+    "category": "Socratic Pedagogy & Explainers",
+    "description": "Guides coding agents to generate Socratic code explainers, exercise scaffolding, and conceptual breakdowns.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "scaffold exercises, socratic tutor, pedagogical explanation, concept walkthrough",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s deeptutor"
+  },
+  {
+    "id": "hallmark",
+    "rank": 22,
+    "name": "Hallmark (Clean-Room Provenance Guard)",
+    "stars_str": "49K+",
+    "stars_count": 49900,
+    "author": "provenance-guard",
+    "repo": "provenance-guard/hallmark",
+    "category": "Git Provenance & DCO Signing",
+    "description": "Cryptographic Proof-of-Prior-Work registry ensuring commits maintain clean-room provenance and DCO validity.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "provenance guard, commit registry, sign-off commit, clean-room proof of work",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s hallmark"
+  },
+  {
+    "id": "t3-code",
+    "rank": 23,
+    "name": "T3 Code (Modern Full-Stack Rules)",
+    "stars_str": "49K+",
+    "stars_count": 49200,
+    "author": "t3-oss",
+    "repo": "t3-oss/create-t3-app",
+    "category": "Full-Stack TypeScript Stack",
+    "description": "Enforces type-safe full-stack architectural conventions: Next.js App Router, tRPC v11, Prisma, and Tailwind.",
+    "platforms": [
+      "Antigravity",
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "trigger": "create-t3-app, trpc schema, prisma migration, nextjs app router convention",
+    "install_cmd": "curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/main/install.sh | bash -s t3-code"
+  }
+]
