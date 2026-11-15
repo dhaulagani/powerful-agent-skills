@@ -2,7 +2,7 @@
 name: gods-eye-view
 description: Autonomous attack surface mapper: scans exposed .git, leaked environment keys, and unauthenticated endpoints.
 author: dhaulagani
-repository: https://github.com/dhaulagani/bountyhunter-recon
+repository: https://github.com/dhaulagani/powerful-agent-skills/tree/main/skills/gods-eye-view
 stars: 63K+
 triggers: bug-bounty-recon, exposed credentials scanner, git exposure check, api fuzzing
 ---
@@ -15,12 +15,12 @@ triggers: bug-bounty-recon, exposed credentials scanner, git exposure check, api
 
 ### Install in Antigravity / Gemini CLI:
 ```bash
-git clone https://github.com/dhaulagani/bountyhunter-recon ~/.gemini/config/skills/gods-eye-view
+git clone https://github.com/dhaulagani/powerful-agent-skills/tree/main/skills/gods-eye-view ~/.gemini/config/skills/gods-eye-view
 ```
 
 ### Install in Claude Code:
 ```bash
-git clone https://github.com/dhaulagani/bountyhunter-recon ~/.claude/skills/gods-eye-view
+git clone https://github.com/dhaulagani/powerful-agent-skills/tree/main/skills/gods-eye-view ~/.claude/skills/gods-eye-view
 ```
 
 ### Install in Current Project (.agents/skills):
@@ -37,4 +37,4 @@ curl -sSL https://raw.githubusercontent.com/dhaulagani/powerful-agent-skills/mai
 - **Trigger Keywords:** `bug-bounty-recon, exposed credentials scanner, git exposure check, api fuzzing`
 
 ## 📖 Source Repository
-Upstream Repository: [https://github.com/dhaulagani/bountyhunter-recon](https://github.com/dhaulagani/bountyhunter-recon)
+Upstream Repository: [https://github.com/dhaulagani/powerful-agent-skills/tree/main/skills/gods-eye-view](https://github.com/dhaulagani/powerful-agent-skills/tree/main/skills/gods-eye-view)
