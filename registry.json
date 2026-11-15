@@ -234,7 +234,7 @@
     "stars_str": "63K+",
     "stars_count": 63100,
     "author": "dhaulagani",
-    "repo": "dhaulagani/bountyhunter-recon",
+    "repo": "dhaulagani/powerful-agent-skills",
     "category": "Offensive Security Recon",
     "description": "Autonomous attack surface mapper: scans exposed .git, leaked environment keys, and unauthenticated endpoints.",
     "platforms": [
